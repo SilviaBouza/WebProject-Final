@@ -1,0 +1,18 @@
+h1{
+    color: white;
+    margin-bottom: 30px;
+}
+
+.texto{
+    color: white;
+    text-align: justify;
+    font-size: 17px;
+}
+
+.imagen img{
+    display: flex;
+    width: 400px;
+    height: 300px;
+}
+
+

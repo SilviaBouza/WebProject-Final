@@ -1,0 +1,110 @@
+.nav-container {
+  padding: 0.4rem;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  position: relative;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.logo h2 {
+  margin-left: 10px;
+  color: white;
+  font-weight: 400;
+}
+
+.logo h2 span {
+  font-weight: bold;
+}
+
+.burguer {
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  background-color: #333;
+  z-index: 1;
+  transition: all 0.5s ease;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.nav-links.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-right: 1rem;
+  font-size: 20px;
+  display: block;
+  padding: 1rem;
+  position: relative;
+}
+
+.nav-links a:hover,
+.nav-links a:focus {
+  color: #00bcd4;
+}
+
+.nav-links a::before {
+  content: '';
+  position: absolute;
+  width: 40%;
+  height: 2px;
+  bottom: 0;
+  background-color: #00bcd4;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease;
+}
+
+.nav-links a:hover::before,
+.nav-links a:focus::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.nav-links.active a::before {
+  background-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .nav-links {
+    flex-direction: row;
+    margin: 0;
+    position: initial;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .burguer {
+    display: none;
+  }
+}

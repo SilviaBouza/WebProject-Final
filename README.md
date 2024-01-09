@@ -1,3 +1,11 @@
+Para este proyecto se seleccionaron las siguientes pautas:
+ - Animaciones con CSS
+ - Llamada a una API externa ( en este caso se utilizo la API de Open Weather Map)
+ - Sitio en REACT
+ - Uso de Hooks
+ - Aplicacion de responsive
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
