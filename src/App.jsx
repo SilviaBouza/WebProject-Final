@@ -2,9 +2,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React from 'react';
 import './assets/css/App.css';
 import NavBar from './components/Header/NavBar/NavBar';
-import Precipitaciones from './components/Header/NavBar/Router/Precipitaciones';
-import Viento from './components/Header/NavBar/Router/Viento';
-import Humedad from './components/Header/NavBar/Router/Humedad';
+import Precipitaciones from './components/Header/Router/Precipitaciones';
+import Viento from './components/Header/Router/Viento';
+import Humedad from './components/Header/Router/Humedad';
 import Inicio from "./components/Header/Router/Inicio";
 
 function App() {

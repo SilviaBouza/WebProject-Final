@@ -1,6 +1,6 @@
 import React from 'react';
 import './Pages.css';
-import dandelion from '../../../../assets/images/dandelion.jpg';
+import dandelion from '../../../assets/images/dandelion.jpg'
 
 
 

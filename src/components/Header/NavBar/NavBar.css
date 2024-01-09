@@ -32,13 +32,12 @@
   font-weight: bold;
 }
 
-.burguer {
-  @media (min-width: 768px) {
+@media (min-width: 768px) {
+  .burguer{
     display: none;
-  }
-
   position: relative;
   z-index: 2;
+  }
 }
 
 .nav-links {

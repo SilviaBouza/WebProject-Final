@@ -1,6 +1,6 @@
 import React from 'react';
 import './Pages.css'
-import precipitaciones from '../../../../assets/images/precipitaciones.jpeg';
+import precipitaciones from '../../../assets/images/precipitaciones.jpeg';
 
 
 
