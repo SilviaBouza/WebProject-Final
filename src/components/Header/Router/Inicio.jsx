@@ -1,5 +1,5 @@
 import React from 'react';
-import WeatherPanel from '../../../WeatherPanel';
+import WeatherPanel from '../../Main/WeatherPanel';
 
 
 const Resumen = () => {

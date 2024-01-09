@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import './Search.css';
 
 const Form = ({newLocation}) => {
     const [city, setCity] = useState("");

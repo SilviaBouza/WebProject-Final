@@ -5,7 +5,7 @@ import NavBar from './components/Header/NavBar/NavBar';
 import Precipitaciones from './components/Header/NavBar/Router/Precipitaciones';
 import Viento from './components/Header/NavBar/Router/Viento';
 import Humedad from './components/Header/NavBar/Router/Humedad';
-import Inicio from "./components/Header/NavBar/Router/Inicio";
+import Inicio from "./components/Header/Router/Inicio";
 
 function App() {
   return (

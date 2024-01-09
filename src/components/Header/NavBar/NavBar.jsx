@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import BurguerButton from '../../BurguerButton';
+import BurguerButton from './BurguerButton';
 import { Link } from 'react-router-dom';
 import './NavBar.css';
 import logo from '../../../assets/images/logo.jfif';
